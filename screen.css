@@ -1,1 +1,7 @@
 /* Add screen styles below */
+.name {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
