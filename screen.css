@@ -1,7 +1,41 @@
 /* Add screen styles below */
-.name {
-    display: flex;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
+.name-container {
+    display: grid;
+    margin: 25px;
+    overflow: auto;
+    align-items: center;
+    justify-content: left;
+}
+
+.item-container {
+    display: grid;
+    margin: 25px;
+    overflow: auto;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.shipping-container {
+    display: grid;
+    margin: 25px;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 3.2em;
+}
+
+h2 {
+    font-size: 1.9em;
+}
+
+label {
+    font-size: 1.5em;
+}
+
+input{
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }

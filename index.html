@@ -12,10 +12,24 @@
     <main>
         <h1>Bargys Fall Flea Market!</h1>
         <h2>Order Form</h2>
-        <div class="name">
-            <p>First Name</p>
-            <p>Last Name</p>
-        </div>
+        <form class="name-container">
+            <label for="first">First Name</label>
+            <input type="text" id="first" name="first">
+            <label for="last">Last Name</label>
+            <input type="text" id="last" name="last">
+        </form>
+
+        <form class="item-container">
+            <label for="label">Item Number</label>
+            <input type="text" id="label" name="label">
+            <label for="count">Item Count</label>
+            <input type="text" id="count" name="count">
+        </form>
+
+        <form class="shipping-container">
+            <label for="ship">Shipping Address</label>
+            <input type="text" id="ship" name="ship">
+        </form>
     </main>
 </body>
 </html>
